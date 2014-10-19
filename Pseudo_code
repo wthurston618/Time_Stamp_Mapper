@@ -1,0 +1,16 @@
+#############################
+#  Some Pseudo-code
+###########################
+
+process_files(base_path)
+
+process_files():
+	get a list of all files in the the base_path
+	for each of those files
+		if it is a directory
+			Enter it.
+			Process_files()
+		if it isn't a directory and is a file
+			find out the Access/Modified/Created times
+			print file, as well as times
+	
